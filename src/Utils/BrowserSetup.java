@@ -18,9 +18,10 @@ public class BrowserSetup {
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		System.out.println("[Passed: Browser window opened and maximized ]");
+		System.out.println();
 		return driver;
 	}
 	
-	
+	//C:\Users\krish\eclipse-workspace\Naukri
 	
 }
