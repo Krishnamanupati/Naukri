@@ -26,6 +26,7 @@ public class Search {
 		  driver.findElement(By.xpath("//button[@type='submit']")).click();
 		 
 		System.out.println(driver.getTitle());
+System.out.println();
 	}
 
 	public static void sort(WebDriver driver) {
